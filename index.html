@@ -7,11 +7,17 @@
 </head>
 <body>
     <h1>javaScript Events</h1>
-    <ul id="images">
+    <!-- <ul id="images">
         <li><img src="images/shoaib.jpg" alt="" id="shoaib" width="300" height="400"></li>
         <li><img src="images/shoaib2.jpg" alt="" id="shoaib2" width="300" height="400"></li>
-        <!-- <img src="images/shoaib.jpg" onMouseover="src='images/shoaib2.jpg'" alt="" width="300" height="400"> -->
-    </ul>
+        <img src="images/shoaib.jpg" onMouseover="src='images/shoaib2.jpg'" alt="" width="300" height="400">
+    </ul> -->
+    <form onsubmit="searchStudent(event)">
+        <label> ID: <input type="text" name="id" id="id-field">
+            <input type="submit" value="search">
+        </label>
+    </form>
+    <p id="show-result"></p>
    
 
     <script src="app.js"></script>
