@@ -24,5 +24,18 @@ const students = [
 function searchStudent(event){
   event.preventDefault();
   const idField = document.getElementById("id-field");
-  
+  const showResultElement = document.getElementById("show-result");
+  const foundStudent = students.find(function(item){
+    if(item.id === idField.value){
+        returntrue;
+    } else {
+        false;
+    }
+  });
+  if (foundStudent){
+    showResultElement.innerText = "id found";
+  } else {
+    showResultElement.innerText = "id not found"
+  }
+
 }
