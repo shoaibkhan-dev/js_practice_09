@@ -58,7 +58,9 @@ function decrement() {
 
 function popup(){
     console.log(popup)
-    increment();
-    decrement();
 }
+
+increment()
+decrement()
+popup()
 
