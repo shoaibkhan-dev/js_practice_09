@@ -94,4 +94,3 @@ let person3 = new Person ("Irfan", "khan", 20);
 
 console.log(person1.fullName())
 
-
