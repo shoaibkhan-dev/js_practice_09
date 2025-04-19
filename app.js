@@ -46,23 +46,23 @@
 //     console.log(i * j + " = " + i + i+j)
 // }
 
-// function increment() {
-//     count++;
-//     console.log(count++);
-// }
+function increment() {
+    count++;
+    console.log(count++);
+}
 
-// function decrement() {
-//     count--;
-//     console.log(count--);
-// }
+function decrement() {
+    count--;
+    console.log(count--);
+}
 
-// function popup(){
-//     console.log(popup)
-// }
+function popup(){
+    console.log(popup)
+}
 
-// increment()
-// decrement()
-// popup()
+increment()
+decrement()
+popup()
 
 const user = {
     name: "shoaib",
